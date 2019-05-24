@@ -1,0 +1,238 @@
+body{
+    color:#33475c!important;
+    font-family: 'HankenGroteskRegular';
+}
+
+p{
+ font-size: 14px!important;
+}
+.read-more{
+    padding:5px 15px;
+    border:1px solid #dbdcdf;
+    text-decoration: none;
+    color:black;
+    font-size: 14px;
+}
+/* wipro digital */
+.card{
+    border: none!important;
+}
+.btn{
+    border-radius: 30px!important;
+    background-image: linear-gradient(#f56416, #fa8f14);
+    color:#fff;
+}
+.wipro-digital p{
+    color:#555555;
+}
+/* who we are */
+.who-we-are{
+    height:300px;
+    background: #1641af;
+    text-align: center;
+    color:#fff;
+    padding:58px 300px 70px 300px;
+}
+.who-we-are h1{
+    padding-bottom: 30px;
+    font-size: 34px;
+}
+
+/* success stories */
+.carousel-item{
+    height:350px;
+}
+.carousel-control-prev-icon  {
+    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")!important;
+
+}
+.carousel-control-prev {
+    left: -130px!important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")!important;
+}
+.carousel-control-next {
+    right: -70px!important;
+}
+.Success-stories h5{
+    padding:30px 0px 10px 0px;
+    font-size: 17px;
+}
+.Success-stories h1{
+  padding:30px 0px 40px 0px;
+  font-size: 35px;
+}
+/*  Success-stories2*/
+.Success-stories2 .carousel-indicators{
+    left:164px;
+   
+}
+.Success-stories2 .carousel-inner h1{
+    padding:38px 0px 47px 0px;
+}
+
+/*what-we-think  */
+.what-we-think{
+    background: #f5f7fa;
+    padding:40px 0px 0px 0px;
+    margin-top: 10px;
+}
+.what-we-think h1{
+    font-size: 35px;
+}
+
+/*facilities  */
+.facilities{
+    padding-top: 70px;
+}
+.facilities .card-body{
+    padding:30px 0px 50px 0px;
+}
+.facilities h5{
+    color:#33475c;
+    font-size: 17px;
+}
+.facilities2 .carousel-indicators{
+    left:144px;
+   
+}
+
+/* social */
+.fab {
+    font-size: 30px;
+    padding-right: 30px;    
+}
+
+.social-sites{
+    padding:60px 0px 90px 0px;
+    background: #ffffff;
+}
+
+.social-sites h5{
+    font-size: 17px;
+    font-weight: medium;
+}
+.social-sites p{
+    font-size: 12px!important;
+}
+/* footer */
+
+.footer-content{
+    background: #212a40;
+    height:600px;
+    color:#a9abb1;
+    padding:40px 0px 80px 0px;
+}
+.footer-content h5,p{
+    padding-bottom:10px;
+}
+.footer-content h5{
+    font-size: 14px;
+    font-weight: bold;
+    color:#ffffff;
+}
+.footer-content p{
+    font-size: 12px!important;
+}
+.footer-content img{
+    padding:15px 0px!important;
+}
+#carouselExampleIndicators1 li{
+    background:#F3123B!important;
+    border-radius: 100%;
+    height:10px;
+    width:10px;
+    
+}
+#carouselExampleIndicators1 li:hover{
+    background:#1641af!important;
+}
+
+.carousel-indicators li{
+    background:#F3123B!important;
+    border-radius: 100%;
+    height:10px;
+    width:10px;
+    
+}
+.carousel-indicators li:hover{
+    background:#1641af!important;
+}
+@media only screen and (min-width:768px) {
+    .Success-stories2{
+        display:none;
+    }
+    
+    .facilities2{
+        display:none;
+    }
+}
+@media(min-width: 320px) and (max-width: 767px){
+    .wipro-digital img{
+        width:100%;
+    }
+    .who-we-are{
+        width:100%;
+    }
+   
+    /*  who we are */
+    .who-we-are{
+        height:auto;
+        padding:25px 14px 20px 14px;
+    }
+
+    .who-we-are h1{
+        padding-bottom: 10px;
+        font-size: 30px;
+    }
+    
+    /* success stories */
+   .Success-stories{
+       display:none;
+   }
+    /* what we think */
+    .what-we-think .row{
+        display:block;
+    }
+    .what-we-think{
+        padding:10px 0px 20px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+    .what-we-think .col-8{
+        max-width: none;
+    }
+    /* facilities */
+    .facilities .row{
+        display:block;
+    }
+    .facilities .row .col-6{
+        max-width: 100%;
+    }
+
+    .facilities{
+        display:none;
+    }
+    
+    /* facilities2 */
+
+     /* social sites */
+     .social-sites{
+        padding:0;
+        background: #ffffff;
+    }
+    .card-body{
+        display:block!important;
+    }
+    .social-sites .row{
+        display: block;
+    }
+    .social-sites .row .col-6{
+        max-width: 100%;
+    }
+    /* footer-content */
+    .footer-content{
+        height:auto;
+}
+}
